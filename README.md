@@ -15,3 +15,10 @@ In principe maken we hier gebruik van een MVC pattern. Waarbij de model director
 
 Opdracht voor de volgende les.
 Maak een pagina voor de behaalde vakken.
+
+# Installeren van dit project:
+installeer alle benodigdheden via met
+`npm install`
+
+start het project met
+`npm run start`
