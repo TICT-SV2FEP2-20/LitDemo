@@ -1,0 +1,37 @@
+#mainmenu {
+    grid-area: mainmenu;
+    background-color: blue;
+    width: 100%;
+}
+#dashboard {
+    grid-area: dashboard;
+    background-color: chartreuse;
+}
+#info {
+    grid-area: info;
+    background-color: coral;
+}
+#footer {
+    grid-area: footer;
+    background-color: crimson;
+    width: 100%;
+}
+profiel-form {
+    grid-area: profile;
+}
+
+body {
+    height: 99vh;
+}
+
+#profielformpage {
+    height: 100%;
+    display: grid;
+    gap: 30px;
+    grid-template-rows: 100px auto auto 100px;
+    grid-template-areas: 
+      "mainmenu mainmenu"
+      "profile dashboard"
+      "profile info"
+      "footer footer";
+}

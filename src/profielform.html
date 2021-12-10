@@ -5,13 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profiel Form</title>
+    <link rel="stylesheet" href="./profielform.css">
     <script type="module" src="view/profiel-form/profiel-form.js"></script>
     <script type="module">
         import 'https://unpkg.com/@material/mwc-textfield?module';
+        import 'https://unpkg.com/@material/mwc-textarea?module';
         import 'https://unpkg.com/@material/mwc-button?module';
     </script>
 </head>
 <body>
-    <profiel-form></profiel-form>
+    <div id="profielformpage">
+        <div id="mainmenu"></div>
+        <div id="dashboard"></div>
+        <div id="info"></div>
+        <profiel-form></profiel-form>
+        <div id="footer">Footer Text</div>
+    </div>
 </body>
 </html>
