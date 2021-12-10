@@ -100,17 +100,14 @@ export class ProfielForm extends LitElement {
     }
 
     formsubmitted(event) {
-        console.log(this.name);
-        console.log(this.adres);
-        console.log(this.email);
-        console.log(this.tel);
-        console.log(this.url);
-
         const myProfile = new Profiel();
         myProfile.name = this.name;
         myProfile.adres = this.adres;
+        myProfile.email = this.email;
 
         this.profielService.saveProfile(myProfile);
+
+        window.location.assign('./dashboard.html');
     }
 
     render() {
